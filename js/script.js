@@ -1,5 +1,5 @@
 const fetchData = () => {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?id=${document.querySelector("select").value}&appid=c2a0b0fe87043488f1561b679f520b62&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?id=${document.querySelector("select").value}&appid=12345&units=metric`)
     .then(response => response.json())
     .then(data => {
         document.querySelector(".city-name").innerHTML = "Nombre del país o ciudad: ";
