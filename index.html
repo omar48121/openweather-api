@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Examen P2</title>
+</head>
+<body>
+    <nav>
+        <h1>Examen 2do Parcial</h1>
+    </nav>
+    <div class="main-container">
+        <div class="select-container">
+            <select name="País" id="select" onchange="fetchData()">
+                <option id="mx" value="3530597">México</option>
+                <option id="hab" value="3564073">La Havana</option>
+                <option id="col" value="3674962">Medellín</option>
+                <option id="la" value="5344994">Los Angeles</option>
+                <option id="mont" value="3995465">Monterrey</option>
+                <option id="ny" value="5128581">New York</option>
+                <option id="mum" value="1275339">Mumbai</option>
+                <option id="ch" value="1796236">Shangai</option>
+                <option id="arg" value="3435907">Buenos Aires</option>
+            </select>
+        </div>
+        <div class="container-1">
+            <div class="title">
+                <h3 class="city-name">Nombre del país o ciudad: </h3>
+            </div>
+            <div class="data">
+                <p class="min-temp">Temperatura mínima: </p>
+                <p class="max-temp">Temperatura: </p>
+                <p class="temp">Temperatura máxima: </p>
+            </div>
+        </div>
+        <div class="container-2">
+            <p class="long">Longitud: </p>
+            <p class="coords">Coordenadas: </p>
+            <p class="lat">Latitud: </p>
+        </div>
+        <div class="container-3">
+            <p class="hum">Humedad: </p>
+            <p class="other">Sensación térmica: </p>
+            <p class="press">Presión: </p>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

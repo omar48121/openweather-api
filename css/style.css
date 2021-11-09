@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+html {
+    background-image: url("../img/heaven-cloud.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+nav {
+    color: white;
+    font-size: 2em;
+}
+nav {
+    width: 100%;
+    height: 150px;
+}
+.container-1 {
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 10px 10px 28px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 28px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 28px -10px rgba(0,0,0,0.75);
+}
+.container-2, .container-3, .select-container, nav {
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    box-shadow: 10px 10px 28px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 28px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 28px -10px rgba(0,0,0,0.75);
+}
+.data {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+h3 {
+    margin-bottom: 10px;
+}
